@@ -2,6 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './style.css'
 
+let medico = {
+    M1nome: "José da Silva",
+    M2nome: "Maria da Silva",
+    M3nome: "Jaqueline Mendes"
+};
 const estilo1 = {
     margin:'auto',
     width: 768, 
