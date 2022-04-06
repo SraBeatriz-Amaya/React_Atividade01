@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 const estilo1 = {
     margin:'auto',
     width: 768, 
-    height: 200, 
+    height: 320, 
     backgroundColor: '#DCDCDC', 
     padding: 12,
     borderStyle: 'solid', 
@@ -14,8 +14,10 @@ const estilo1 = {
 
 const App = () => {
     return(
-        <div style={estilo1}>       
-            <label htmlFor="nome" style={{display: 'block', marginBottom: 4, marginLeft: 290}}> Profissionais de saúde</label>
+        <div style={estilo1}>   
+         <label htmlFor="nome" style={{display: 'block', marginBottom: 4, marginLeft: 290}}> Profissionais de saúde</label>  
+            <div style={{marginTop: 25, height: 250,  width: 745, borderStyle: 'solid', borderColor: '#CCCCCC', borderRadius: 8}}></div>
+           
         </div>
     )
 }
