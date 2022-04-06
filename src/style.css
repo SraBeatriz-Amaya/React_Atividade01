@@ -3,6 +3,8 @@
     width: 200px; 
     height: 200px;
     margin: 25px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 .div1 {
     background-color: #D8BFD8;    
@@ -12,4 +14,14 @@
 }
 .div3{
     background-color: #D8BFD8;
+}
+
+.imagem1{
+    margin-top:10px;
+    width: 140px; 
+    height: 140px;
+    margin-left: 30px;
+    border-radius: 8px;
+    position: absolute;
+    
 }

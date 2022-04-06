@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './style.css'
+import imagem from "./images/joao.jpg";
 
 let medico = {
     M1nome: "José da Silva",
@@ -23,7 +24,10 @@ const App = () => {
         <div style={estilo1}>   
          <label htmlFor="nome" style={{display: 'block', marginBottom: 4, marginLeft: 290}}> Profissionais de saúde</label>  
             <div style={{marginTop: 25, height: 250,  width: 745, borderStyle: 'solid', borderColor: '#CCCCCC', borderRadius: 8}}>
-            <div className="div1"></div>
+            <div className="div1">
+                <img src={imagem} className="imagem1"/>
+
+            </div>
             <div className="div2"></div>
             <div className="div3"></div>
             </div>
