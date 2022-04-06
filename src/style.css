@@ -1,0 +1,15 @@
+.div1, .div2, .div3 {
+    display: inline-block;
+    width: 200px; 
+    height: 200px;
+    margin: 25px 20px;
+}
+.div1 {
+    background-color: #D8BFD8;    
+}
+.div2{
+    background-color: #D8BFD8;
+}
+.div3{
+    background-color: #D8BFD8;
+}
