@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom'
 import './style.css'
 import imagem from "./images/joao.jpg";
 
+
+
 let medico = {
     M1nome: "José da Silva",
     M2nome: "Maria da Silva",
@@ -26,10 +28,15 @@ const App = () => {
             <div style={{marginTop: 25, height: 250,  width: 745, borderStyle: 'solid', borderColor: '#CCCCCC', borderRadius: 8}}>
             <div className="div1">
                 <img src={imagem} className="imagem1"/>
-
+                <p className="nomes">{medico.M1nome}</p>
             </div>
-            <div className="div2"></div>
-            <div className="div3"></div>
+            <div className="div2">
+            <img src={process.env.PUBLIC_URL + '/Maria.jpg'} className="imagem1"/>
+                <p className="nomes">{medico.M2nome}</p>
+            </div>
+            <div className="div3">
+            
+            </div>
             </div>
         </div>
     )
