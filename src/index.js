@@ -31,11 +31,12 @@ const App = () => {
                 <p className="nomes">{medico.M1nome}</p>
             </div>
             <div className="div2">
-            <img src={process.env.PUBLIC_URL + '/Maria.jpg'} className="imagem1"/>
+                <img src={process.env.PUBLIC_URL + '/Maria.jpg'} className="imagem1"/>
                 <p className="nomes">{medico.M2nome}</p>
             </div>
             <div className="div3">
-            
+                <img src="https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5452201.jpg&fm=jpg" className="imagem1"/>
+                <p className="nomes">{medico.M3nome}</p>
             </div>
             </div>
         </div>
